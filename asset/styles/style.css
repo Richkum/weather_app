@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main {
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ padding-top: 50px;
+}
+
+.container {
+  background-color: rgb(175, 175, 175);
+  width: 70%;
+  height: 90vh;
+  align-items: center;
+}
+
+.wrapper {
+
+}
+
+.navbar {
+  padding: 5px 15px;
+  display: flex;
+  gap: 2rem;
+  background-color: black;
+}
+
+.one {
+  background-color: rgb(1, 190, 1);
+  color: white;
+  padding: 3px 3px 3px 3px;
+  height: 20px;
+  border-radius: 50%;
+}
+
+.two {
+  background-color: red;
+  color: white;
+  padding: 2px 2px 2px 2px;
+  height: 20px;
+  border-radius: 50%;
+}
+
+.three {
+  background-color: orange;
+  color: white;
+  padding: 3px 3px 3px 3px;
+  height: 20px;
+  border-radius: 50%;
+}
+
+input {
+  width: 70%;
+  margin: 10px 50px;
+  border: none;
+  border-radius: 20px;
+}
